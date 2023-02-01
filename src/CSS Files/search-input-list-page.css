@@ -22,8 +22,9 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 1rem;
     background-color: var(--light-brown);
-    margin: 2rem auto;
+    margin: 2rem auto 0 auto;
     gap: 0.75rem;
+    padding-right: 3rem;
 }
 
 @media (max-width: 720px) {
@@ -37,6 +38,17 @@
     .list-items {
         font-size: 0.7rem;
     }
+}
+
+h2 {
+    margin: 1rem;
+    text-align: center;
+}
+
+.back-link {
+    color: var(--black);
+    text-decoration-color: var(--black);
+    text-underline-offset: 0.5rem;
 }
 
 ul {
@@ -57,19 +69,6 @@ ul {
 
 .search-input {
     padding: 0.25rem;
-}
-
-.main-page-link-container {
-    text-align: center;
-    padding: 1rem;
-
-}
-
-.main-page-link {
-    font-size: 1.5rem;
-    color: var(--black);
-    text-decoration-color: var(--black);
-    text-underline-offset: 0.5rem;
 }
 
 .auto-scroll {

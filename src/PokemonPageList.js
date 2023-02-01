@@ -20,7 +20,7 @@ function PokemonListPage () {
 
     const filter = () => {
         setListArr(pokemonNamesArr.filter((index) => {
-            return index.includes(inputValue.current.value)
+            return index.includes(inputValue.current.value.toLowerCase())
         }))
     }
 
@@ -30,6 +30,11 @@ function PokemonListPage () {
 
     return (
         <main>
+            <h2>
+                <a className="back-link" rel="noreferrer" target="_blank" href="https://gelianthus.github.io/not-pokedex">
+                    Go back
+                </a>
+            </h2>
             <div className="prefixes">
                 <p>Here are some of the available prefixes to target specific forms:</p>
                 <ul className="prefix-list">
@@ -43,6 +48,7 @@ function PokemonListPage () {
                 <input ref={inputValue} className="search-input" placeholder="Type to filter the list" onChange={filter}/>
             </div>
             <ul className="list-items">
+                {listArr.length < 1 && <li className="list-item">(No match)</li>}
                 {listArr.map((index) => {
                     return <li key={index} className="list-item">{index}</li>
                 })}
