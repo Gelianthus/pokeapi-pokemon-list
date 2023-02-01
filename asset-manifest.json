@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pokeapi-pokemon-list/static/css/main.532ba6c7.css",
+    "main.js": "/pokeapi-pokemon-list/static/js/main.247b6ec1.js",
+    "static/js/787.2582079a.chunk.js": "/pokeapi-pokemon-list/static/js/787.2582079a.chunk.js",
+    "index.html": "/pokeapi-pokemon-list/index.html",
+    "main.532ba6c7.css.map": "/pokeapi-pokemon-list/static/css/main.532ba6c7.css.map",
+    "main.247b6ec1.js.map": "/pokeapi-pokemon-list/static/js/main.247b6ec1.js.map",
+    "787.2582079a.chunk.js.map": "/pokeapi-pokemon-list/static/js/787.2582079a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.532ba6c7.css",
+    "static/js/main.247b6ec1.js"
+  ]
+}
